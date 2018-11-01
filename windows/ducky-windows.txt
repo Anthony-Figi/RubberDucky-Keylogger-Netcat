@@ -6,8 +6,8 @@ STRING powershell Start-Process powershell -Verb runAs -argument "'-windowstyle 
 ENTER
 DELAY 900
 ALT y 
-DELAY 1000
-STRING mode con:cols=13 lines=1
+DELAY 2000
+STRING mode con:cols=16 lines=1
 ENTER
 STRING color FE
 ENTER
